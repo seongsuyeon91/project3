@@ -1,0 +1,54 @@
+name: project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^2.1.1
+  image_picker: ^1.0.3
+  firebase_core: ^2.15.1
+  cloud_firestore: ^4.9.1 
+  firebase_database: ^10.2.5
+  firebase_storage: ^11.2.6
+  firebase_auth: ^4.9.0
+  shared_preferences: ^2.2.1
+  table_calendar: ^3.0.9
+  provider: ^6.0.5
+  another_flutter_splash_screen: ^1.1.5
+
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Nanoom
+      fonts:
+        - asset: fonts/나눔손글씨 세아체.ttf
+          weight: 100
+        
+          
+ 
+
+  
